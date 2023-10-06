@@ -1,5 +1,5 @@
-function tocaSomPom () {
-    querySelecdocument.qtor('#som_tecla_pom'). play();
+function tocaSomClap() {
+    document.querySelector('#som_tecla_clap').play()
 }
 
 document.querySelector('.tecla_pom').onclicki = tocaSomPom;
