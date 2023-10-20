@@ -1,6 +1,5 @@
-function tocaSomClap() {
-    document.querySelector('#som_tecla_clap').play()
+function tocaSomPom() {
+    document.querySelector('#som_tecla_pom').play()
 }
-document.querySelector('#som_tecla_clap')
-document.querySelector('#som_tecla_clap').play()
+document.querySelector('.tecla-pom').onclick= tocaSomPom
 
